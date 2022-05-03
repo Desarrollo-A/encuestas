@@ -1,0 +1,47 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
+
+### .idea ###
+.idea
+.idea/*
+
+### VisualStudioCode ###
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# omitir base en application
+application/cache/*
+application/config/*
+application/core/*
+application/helpers/*
+application/hooks/*
+application/language/*
+application/libraries/*
+application/logs/*
+application/third_party/*
+
+#Archivos binarios no necesarios de subir
+assets/img/*
+
+#omitimos todo core (no cambia)
+system/*
+
+#Omitimos carpeta uploads, contenido xml y pdf
+Users/*
