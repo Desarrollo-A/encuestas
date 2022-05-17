@@ -154,7 +154,25 @@ class Results extends CI_Controller {
             <table style="font-size:12px; color:#333;">
               <tr style="text-align: center;">
                 <td><b>'.$information->respuesta_9.':</b> '.$information->porque_9.'</td>
-                <td><b>'.$information->respuesta_10.'</b></td>
+                <td>
+                  <table width="100%">
+                    <tr>
+                        <td colspan="7"><b>'.$information->respuesta_10.'</b></td>
+                    </tr>
+                    <tr>
+                      <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td><label for="radio1"><img src="'.base_url("assets/img/estrella.png").'" width="40"></label></td>
+                      <td><label for="radio2"><img src="'.base_url("assets/img/estrella.png").'" width="40"></label></td>
+                      <td><label for="radio3"><img src="'.base_url("assets/img/estrella.png").'" width="40"></label></td>
+                      <td><label for="radio4"><img src="'.base_url("assets/img/estrella.png").'" width="40"></label></td>
+                      <td><label for="radio5"><img src="'.base_url("assets/img/estrella.png").'" width="30"></label></td>
+                      <td></td>
+                    </tr>
+                  </table>
+                </td>
               </tr>
             </table>
             <br>
@@ -170,8 +188,40 @@ class Results extends CI_Controller {
             <br><br>
             <table style="font-size:12px; color:#333;">
               <tr style="text-align: center;">
-                <td><b>'.$information->respuesta_11.'</b></td>
-                <td><b>'.$information->respuesta_12.'</b></td>
+                <td>
+                  <table width="100%">
+                    <tr>
+                      <td colspan="5"><b>'.$information->respuesta_11.'</b></td>
+                    </tr>
+                    <tr>
+                      <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td><label><img src="'.base_url("assets/img/bien2.png").'" width="40"></label></td>
+                      <td><label><img src="'.base_url("assets/img/regular2.png").'" width="30"></label></td>
+                      <td><label><img src="'.base_url("assets/img/mal2.png").'" width="30"></label></td>
+                      <td></td>
+                    </tr>
+                  </table>
+                </td>
+                <td>
+                  <table width="100%">
+                    <tr>
+                      <td colspan="5"><b>'.$information->respuesta_12.'</b></td>
+                    </tr>
+                    <tr>
+                      <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td><label><img src="'.base_url("assets/img/bien2.png").'" width="40"></label></td>
+                      <td><label><img src="'.base_url("assets/img/regular2.png").'" width="30"></label></td>
+                      <td><label><img src="'.base_url("assets/img/mal2.png").'" width="30"></label></td>
+                      <td></td>
+                    </tr>
+                  </table>
+                </td>
               </tr>
             </table>
             <br>
